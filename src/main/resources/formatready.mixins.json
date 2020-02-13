@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "net.cuddlebat.formatready.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+	"SharedConstantsMixin"
+  ],
+  "client": [
+	"ChatScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

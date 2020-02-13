@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "formatready",
+  "version": "${version}",
+
+  "name": "Format Ready",
+  "description": "A mod that allows use of $ in place of §; use $$ to enter dollar sign.",
+  "authors": [
+    "des-cuddlebat"
+  ],
+  "contact": {
+    "homepage": "https://cuddlebat.net/",
+    "sources": "https://github.com/des-cuddlebat/format-ready"
+  },
+
+  "license": "MIT",
+  "icon": "assets/formatready/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+  },
+  "mixins": [
+    "formatready.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.2",
+    "fabric": "*",
+    "minecraft": "1.15.x"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
